@@ -1,0 +1,22 @@
+version: 1
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: dist/dbsyncer.lpk
+update:
+  strategy: publish
+  allow_downgrade: false
+  version_source:
+    type: git
+build:
+  run_buildscript: false
+stores:
+  official:
+    enabled: true
+    skip_if_version_exists: true
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: DBSyncer
+    summary: 支持多种数据库和消息系统的开源数据同步中间件

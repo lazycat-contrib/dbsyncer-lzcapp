@@ -1,0 +1,19 @@
+package: community.lazycat.app.dbsyncer
+version: 2.0.7
+name: DBSyncer
+description: "Open-source data synchronization middleware supporting MySQL, Oracle, SqlServer, PostgreSQL, Elasticsearch, Kafka, and more"
+min_os_version: 1.5.0
+license: Apache-2.0
+homepage: https://github.com/86dbs/dbsyncer
+author: 86dbs
+locales:
+  en:
+    name: "DBSyncer"
+    description: "Open-source data synchronization middleware supporting MySQL, Oracle, SqlServer, PostgreSQL, Elasticsearch, Kafka, and more"
+  zh:
+    name: "DBSyncer"
+    description: "开源的数据同步中间件，支持 MySQL、Oracle、SqlServer、PostgreSQL、Elasticsearch、Kafka 等多种数据源同步"
+unsupported_platforms:
+  - ios
+  - android
+  - tvos
